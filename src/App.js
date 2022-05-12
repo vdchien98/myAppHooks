@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './component/NavBar';
 import './App.scss';
+import Todos from './component/ToDos';
 
 function App() {
     const style = {
@@ -16,6 +17,7 @@ function App() {
             </div>
             <div>
                 <NavBar></NavBar>
+                <Todos />
             </div>
         </div>
     );

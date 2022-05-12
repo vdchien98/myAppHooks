@@ -1,0 +1,18 @@
+.todo-list {
+    ul {
+        padding: 10px;
+        list-style-type: none;
+        background: #d5d1d1;
+    }
+    .todo-list-item {
+        padding: 10px;
+        cursor: pointer;
+        margin: 10px 0;
+        border-radius: 4px;
+        background-color: white;
+    }
+    .todo-list li:hover {
+        opacity: 0.7;
+        text-decoration: line-through;
+    }
+}
